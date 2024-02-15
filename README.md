@@ -1,10 +1,14 @@
 [![license-badge][]][license] ![version] [![stars][]][stargazers] ![hit-count] [![github-issues][]][issues]
 
-# LiquidCrystal_I2C
+# LiquidCrystal_I2C_PCF8574
 
-This is small and fast Arduino library for LCD HD44780 and its clones (S6A0069, KS0066U, NT3881D, LC7985, ST7066, SPLC780, WH160xB, AIP31066, GDM200xD). The display operates in 4-bit mode over I²C bus with 8-bit I/O expander PCF8574/PCF8574A.
+This is small and fast Arduino library for LCD HD44780 and its clones (S6A0069, KS0066U, NT3881D, LC7985, ST7066, SPLC780, WH160xB, AIP31066, GDM200xD). The display operates in 4-bit mode over I²C bus with 8-bit I/O expander PCF8574/PCF8574A.\
+
+Vietnamese: Thư viện Arduino này sử dụng cho LCD có chip driver HD44780 và những ic clone khác của nó bao gồm: S6A0069, KS0066U, NT3881D, LC7985, ST7066, SPLC780, WH160xB, AIP31066, GDM200xD, .... Sử dụng mode 4-bit thông qua giao tiếp I²C với board mở rộng I²C cho LCD  PCF8574/PCF8574A
 
 The 99.9% of all PCF8574(A) I²C backpacks available on the market are connected like this:
+
+Vietnamese: Mạch mở rộng I²C cho LCD thường sẽ có kết nối như sau:
 
 | PCF8574 ports | LCD pins |
 | ---- | ------- |
